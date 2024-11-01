@@ -7,7 +7,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import br.com.studyproject.exercises.FindTheIndexOfTheFirstOccurrenceInAString
 import br.com.studyproject.exercises.MergeKSortedLists
+import br.com.studyproject.exercises.PlusOne
 import br.com.studyproject.ui.theme.StudyProjectTheme
 import br.com.studyproject.model.printListNode
 import br.com.studyproject.model.toArrayListOfListNode
@@ -28,8 +30,8 @@ fun main() {
     )
 
     val listNode = toArrayListOfListNode(nestedList)
-    val solution = MergeKSortedLists()
-    printListNode(solution.mergeKLists(listNode))
+    val solution = PlusOne()
+    println(solution.plusOne(intArrayOf(9, 9)))
 }
 
 @Composable
