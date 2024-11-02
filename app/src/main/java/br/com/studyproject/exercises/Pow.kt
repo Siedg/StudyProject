@@ -11,6 +11,10 @@ class Pow {
 
         if (exponent < 0) {
             base = 1 / base
+            if (exponent == Int.MIN_VALUE) {
+                exponent += 1
+                result *= base
+            }
             exponent = -exponent
         }
 
