@@ -1,13 +1,14 @@
 package br.com.studyproject.model
+import kotlin.collections.List
 
-class List<T> {
+class GenericList<T> {
     val list = mutableListOf<T>()
 
     fun add(item: T) = list.add(item)
 
     fun remove(): T? = if (list.isNotEmpty()) list.removeFirst() else null
 
-    fun get(): T? = if (list.isNotEmpty()) list.first() else null
+    fun get(): T? = list.firstOrNull()
 
-    fun getList(): MutableList<T> = list
+    fun getList(): List<T> = list.toList()
 }
