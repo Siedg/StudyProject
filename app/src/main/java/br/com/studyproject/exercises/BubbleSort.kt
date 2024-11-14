@@ -14,3 +14,17 @@ class BubbleSort {
         }
     }
 }
+
+/*
+Complexidade:
+Melhor caso: O(n) (quando o array já está ordenado)
+Caso médio: O(n²)
+Pior caso: O(n²)
+
+Vantagens:
+Simples de entender e implementar.
+Estável (não altera a ordem de elementos com o mesmo valor).
+
+Desvantagens:
+Muito ineficiente para grandes arrays.
+ */
