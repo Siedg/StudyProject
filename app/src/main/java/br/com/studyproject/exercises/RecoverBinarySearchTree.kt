@@ -5,30 +5,32 @@ import br.com.studyproject.model.TreeNode
 class RecoverBinarySearchTree {
     private var firstNode: TreeNode? = null
     private var secondNode: TreeNode? = null
-    private var prevNode = TreeNode(Int.MIN_VALUE)
+    private var prevNode: TreeNode? = null
 
-    fun recoverTree(root: TreeNode?): Unit {
-        inOrderTravel(root)
+    fun recoverTree(root: TreeNode?) {
+        inorderTraversal(root)
 
-        val temp = firstNode!!.`val`
-        firstNode!!.`val` = secondNode!!.`val`
-        secondNode!!.`val` = temp
+        if (firstNode != null && secondNode != null) {
+            val temp = firstNode!!.`val`
+            firstNode!!.`val` = secondNode!!.`val`
+            secondNode!!.`val` = temp
+        }
     }
 
-    private fun inOrderTravel(root: TreeNode?) {
-        if (root == null) return
+    private fun inorderTraversal(node: TreeNode?) {
+        if (node == null) return
 
-        inOrderTravel(root.left)
+        inorderTraversal(node.left)
 
-        if (prevNode.`val` >= root.`val`) {
+        if (prevNode != null && prevNode!!.`val` >= node.`val`) {
             if (firstNode == null) {
                 firstNode = prevNode
             }
-            secondNode = root
+            secondNode = node
         }
 
-        prevNode = root
+        prevNode = node
 
-        inOrderTravel(root.right)
+        inorderTraversal(node.right)
     }
 }
