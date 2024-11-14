@@ -1,4 +1,5 @@
 package br.com.studyproject.model
+import kotlin.collections.List
 
 class Stack<T> {
     private val stack = mutableListOf<T>()
@@ -9,5 +10,5 @@ class Stack<T> {
 
     fun get(): T? = if (stack.isNotEmpty()) stack[stack.lastIndex] else null
 
-    fun getAllElements(): List<T> = stack.asReversed()
+    fun getStack(): List<T> = stack.asReversed().toList()
 }
