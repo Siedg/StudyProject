@@ -1,4 +1,4 @@
-package br.com.studyproject.model
+package br.com.studyproject.exercises
 
 class Gepetto {
     fun binarySearch(list: List<Int>, element: Int): Boolean {
