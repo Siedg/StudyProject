@@ -1,6 +1,6 @@
 package br.com.studyproject.exercises
 
-fun rotate(nums: IntArray, k: Int): Unit {
+fun rotateSpacialComplexityO1(nums: IntArray, k: Int): Unit {
     if (nums.isEmpty() || k <= 0) return
 
     val offset = k % nums.size
@@ -23,3 +23,21 @@ fun rotate(nums: IntArray, k: Int): Unit {
         start++
     }
 }
+
+fun rotate(nums: IntArray, k: Int): Unit {
+    if (nums.isEmpty() || k <= 0) return
+
+    val n = nums.size
+    val offset = k % n
+    val temp = IntArray(n)
+
+    for (i in nums.indices) {
+        val newIndex = (i + offset) % n
+        temp[newIndex] = nums[i]
+    }
+
+    for (i in nums.indices) {
+        nums[i] = temp[i]
+    }
+}
+
