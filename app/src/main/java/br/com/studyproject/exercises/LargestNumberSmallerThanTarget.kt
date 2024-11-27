@@ -16,5 +16,5 @@ fun largestNumberSmallerThanTarget(nums: IntArray, target: Int): Int? {
         }
     }
 
-    return if (left > 0 && nums[left - 1] < target) return nums[left -1 ] else null
+    return if (left > 0 && nums[left - 1] < target) return nums[left -1] else null
 }
