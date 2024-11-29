@@ -20,7 +20,7 @@ fun minSubArrayLenOn(target: Int, nums: IntArray): Int {
 
 fun minSubArrayLenOnlogn(target: Int, nums: IntArray): Int {
     val n = nums.size
-    val prefixSums = IntArray(n + 1) // prefixSums[0] = 0
+    val prefixSums = IntArray(n + 1)
 
     for (i in nums.indices) {
         prefixSums[i + 1] = prefixSums[i] + nums[i]
