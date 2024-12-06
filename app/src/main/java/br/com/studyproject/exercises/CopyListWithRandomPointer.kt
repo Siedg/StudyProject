@@ -1,15 +1,15 @@
 package br.com.studyproject.exercises
 
-import br.com.studyproject.model.Node
+import br.com.studyproject.model.NodeRandom
 
-fun copyRandomList(head: Node?): Node? {
+fun copyRandomList(head: NodeRandom?): NodeRandom? {
     if (head == null) return null
 
-    val map = mutableMapOf<Node, Node>()
+    val map = mutableMapOf<NodeRandom, NodeRandom>()
 
     var current = head
     while (current != null) {
-        map[current] = Node(current.`val`)
+        map[current] = NodeRandom(current.`val`)
         current = current.next
     }
 
