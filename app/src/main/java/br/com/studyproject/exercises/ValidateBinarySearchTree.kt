@@ -18,4 +18,17 @@ class ValidateBinarySearchTree {
         }
         return true
     }
+
+    fun isValidBSTHelper(node: TreeNode?, min: Long, max: Long): Boolean {
+        if (node == null) return true
+        if (node.`val` <= min || node.`val` >= max) {
+            return false
+        }
+        return isValidBSTHelper(node.left, min, node.`val`.toLong()) &&
+                isValidBSTHelper(node.right, node.`val`.toLong(), max)
+    }
+
+    fun isValidBSTII(root: TreeNode?): Boolean {
+        return isValidBSTHelper(root, Long.MIN_VALUE, Long.MAX_VALUE)
+    }
 }
