@@ -1,0 +1,203 @@
+🟢 EASY (1–30)
+1. Two Sum
+Dado um array nums e um inteiro target, retorne os índices de dois números cuja soma seja igual a target.
+2. Contains Duplicate
+Dado um array de inteiros, retorne true se existir algum elemento duplicado.
+3. Valid Anagram
+Dadas duas strings s e t, retorne true se t for um anagrama de s.
+4. Move Zeroes
+Mova todos os zeros para o final do array mantendo a ordem relativa.
+5. Best Time to Buy and Sell Stock
+Retorne o lucro máximo comprando e vendendo uma ação uma única vez.
+6. Valid Parentheses
+Verifique se a string de parênteses é válida.
+7. Majority Element
+Retorne o elemento que aparece mais de n/2 vezes.
+8. Missing Number
+Dado array com números de 0 a n, faltando um, encontre o número faltante.
+9. Reverse String
+Inverta uma string in-place.
+10. Merge Two Sorted Arrays
+Una dois arrays ordenados em um único array ordenado.
+11. Intersection of Two Arrays
+Retorne os elementos comuns entre dois arrays.
+12. Happy Number
+Determine se um número é “feliz”.
+13. First Unique Character
+Retorne o índice do primeiro caractere não repetido.
+14. Climbing Stairs
+Quantas formas existem para subir n degraus?
+15. Fibonacci
+Implemente Fibonacci (iterativo e recursivo).
+16. Maximum Depth of Binary Tree
+Retorne a profundidade máxima da árvore.
+17. Symmetric Tree
+Verifique se a árvore é simétrica.
+18. Invert Binary Tree
+Inverta uma árvore binária.
+19. Implement Stack using Queue
+Implemente stack usando apenas queue.
+20. Implement Queue using Stack
+Implemente queue usando apenas stack.
+21. Palindrome Number
+Determine se um número é palíndromo.
+22. Remove Duplicates from Sorted Array
+Remova duplicados in-place.
+23. Plus One
+Some 1 a um número representado como array.
+24. Valid Palindrome
+Ignore espaços e pontuação e verifique se é palíndromo.
+25. Two Sum II (array ordenado)
+Encontre dois números que somem target usando two pointers.
+26. Find Pivot Index
+Encontre o índice onde soma esquerda = soma direita.
+27. Reverse Linked List
+Inverta uma lista ligada.
+28. Detect Cycle in Linked List
+Detecte se existe ciclo.
+29. Balanced Binary Tree
+Verifique se árvore é balanceada.
+30. Count Primes
+Conte quantos números primos existem até n.
+🟡 MEDIUM (31–70)
+31. Merge Intervals
+Una intervalos sobrepostos.
+32. Insert Interval
+Insira intervalo e faça merge se necessário.
+33. Product of Array Except Self
+Retorne produto exceto o próprio índice (sem divisão).
+34. Longest Substring Without Repeating Characters
+Retorne tamanho da maior substring sem repetição.
+35. Subarray Sum Equals K
+Conte subarrays cuja soma é k.
+36. Top K Frequent Elements
+Retorne os k elementos mais frequentes.
+37. K Closest Points to Origin
+Retorne os k pontos mais próximos da origem.
+38. Search in Rotated Sorted Array
+Busque elemento em array rotacionado.
+39. Find First and Last Position
+Retorne primeiro e último índice de um target.
+40. Binary Tree Level Order Traversal
+Retorne valores por nível.
+41. Validate BST
+Determine se árvore é BST válida.
+42. Lowest Common Ancestor
+Encontre o ancestral comum mais baixo.
+43. Number of Islands
+Conte ilhas numa matriz.
+44. Clone Graph
+Clone um grafo.
+45. Course Schedule
+Verifique se é possível finalizar todos cursos.
+46. LRU Cache
+Implemente cache com O(1).
+47. Longest Palindromic Substring
+Retorne maior substring palindrômica.
+48. House Robber
+Maximize valor sem roubar casas adjacentes.
+49. Coin Change
+Menor número de moedas para atingir valor.
+50. Permutations
+Retorne todas as permutações.
+51. Subsets
+Retorne todos os subconjuntos.
+52. Combination Sum
+Retorne combinações que somam target.
+53. Word Break
+Verifique se string pode ser segmentada.
+54. Longest Increasing Subsequence
+Retorne tamanho da LIS.
+55. Minimum Window Substring
+Menor substring contendo todos caracteres de outra.
+56. Spiral Matrix
+Retorne elementos em espiral.
+57. Rotate Image
+Rotacione matriz 90° in-place.
+58. Set Matrix Zeroes
+Se célula for zero, zere linha e coluna.
+59. Pacific Atlantic Water Flow
+Determine células que alcançam ambos oceanos.
+60. Search 2D Matrix
+Busque número em matriz ordenada.
+61. Meeting Rooms II
+Retorne mínimo de salas necessárias.
+62. Task Scheduler
+Minimize intervalos com cooldown.
+63. Kth Smallest in BST
+Encontre k-ésimo menor elemento.
+64. Binary Tree Right Side View
+Retorne visão lateral direita.
+65. Reorder Log Files
+Reordene logs por regras específicas.
+66. Accounts Merge
+Una contas por email.
+67. Partition Equal Subset Sum
+Determine se pode dividir em dois subsets iguais.
+68. Decode Ways
+Conte maneiras de decodificar string numérica.
+69. Sliding Window Maximum
+Retorne máximo de cada janela k.
+70. Graph Valid Tree
+Determine se grafo forma árvore válida.
+🔴 HARD (71–100)
+71. Trapping Rain Water
+Calcule água armazenada.
+72. Largest Rectangle in Histogram
+Retorne maior área possível.
+73. Median of Two Sorted Arrays
+Encontre mediana em O(log n).
+74. Word Search II
+Encontre múltiplas palavras na matriz.
+75. Edit Distance
+Calcule mínima edição entre strings.
+76. Merge K Sorted Lists
+Una k listas ordenadas.
+77. Serialize and Deserialize Binary Tree
+Implemente serialização.
+78. Minimum Difficulty Job Schedule
+Minimize dificuldade total.
+79. Critical Connections
+Encontre pontes no grafo.
+80. Network Delay Time
+Calcule tempo mínimo para todos nós receberem sinal.
+81. Reconstruct Itinerary
+Reconstrua caminho usando todas passagens.
+82. Alien Dictionary
+Determine ordem das letras em idioma alienígena.
+83. Maximal Rectangle
+Maior retângulo de 1s numa matriz.
+84. Regular Expression Matching
+Implemente regex com '.' e '*'.
+85. N-Queens
+Retorne todas soluções válidas.
+86. Shortest Path in Grid with Obstacles
+Encontre caminho mínimo.
+87. Burst Balloons
+Maximize moedas estourando balões.
+88. Word Ladder II
+Retorne todos menores caminhos.
+89. Split Array Largest Sum
+Minimize maior soma ao dividir array.
+90. Frog Jump
+Determine se sapo pode atravessar pedras.
+91. Minimum Cost to Connect Points
+Construa MST mínimo.
+92. Maximum Profit in Job Scheduling
+Maximize lucro com intervalos.
+93. Remove Invalid Parentheses
+Remova mínimo de parênteses inválidos.
+94. Basic Calculator III
+Implemente parser com +, -, *, / e parênteses.
+95. Expression Add Operators
+Insira operadores para atingir target.
+96. Candy
+Distribua doces minimizando total.
+97. Skyline Problem
+Retorne contorno dos prédios.
+98. Minimum Window Subsequence
+Menor subsequência contendo target.
+99. Distinct Subsequences
+Conte subsequências distintas.
+100. Maximum Subarray Sum with One Deletion
+Retorne maior soma possível permitindo uma deleção.
