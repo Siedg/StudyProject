@@ -1,32 +1,76 @@
 🟢 EASY (1–30)
 1. Two Sum
 Dado um array nums e um inteiro target, retorne os índices de dois números cuja soma seja igual a target.
+
 2. Contains Duplicate
 Dado um array de inteiros, retorne true se existir algum elemento duplicado.
+
 3. Valid Anagram
 Dadas duas strings s e t, retorne true se t for um anagrama de s.
+
 4. Move Zeroes
 Mova todos os zeros para o final do array mantendo a ordem relativa.
+
 5. Best Time to Buy and Sell Stock
-Retorne o lucro máximo comprando e vendendo uma ação uma única vez.
+Given an array prices where prices[i] is the price of a stock on day i,
+return the maximum profit you can achieve from a single buy and a single sell.
+You must buy before you sell.
+If no profit is possible, return 0.
+
 6. Valid Parentheses
-Verifique se a string de parênteses é válida.
+Given a string containing only the characters ()[]{},
+return true if the input string is valid.
+A string is valid if:
+Open brackets are closed by the same type.
+Open brackets are closed in the correct order.
+Every closing bracket has a matching open bracket.
+
 7. Majority Element
-Retorne o elemento que aparece mais de n/2 vezes.
+Implement a function that returns the n-th Fibonacci number.
+Assume the classic definition:
+F(0) = 0
+F(1) = 1
+F(n) = F(n-1) + F(n-2)
+
 8. Missing Number
-Dado array com números de 0 a n, faltando um, encontre o número faltante.
+Given an array nums containing n distinct numbers in the range [0, n],
+return the only number in the range that is missing from the array.
+
 9. Reverse String
-Inverta uma string in-place.
+Write a function that reverses a string in-place.
+The input is given as a character array.
+
 10. Merge Two Sorted Arrays
-Una dois arrays ordenados em um único array ordenado.
+You are given two sorted integer arrays nums1 and nums2,
+and two integers m and n.
+Merge nums2 into nums1 as one sorted array.
+nums1 has a size of m + n,
+where the last n elements are zeros and should be ignored.
+
 11. Intersection of Two Arrays
-Retorne os elementos comuns entre dois arrays.
+Given two integer arrays nums1 and nums2,
+return an array of their intersection.
+Each element in the result must be unique,
+and the result can be returned in any order.
+
 12. Happy Number
-Determine se um número é “feliz”.
+Write an algorithm to determine if a number n is a happy number.
+A happy number is defined as:
+Starting with any positive integer,
+Replace the number by the sum of the squares of its digits.
+Repeat the process until:
+The number equals 1 → happy
+Or it loops endlessly → not happy
+
 13. First Unique Character
-Retorne o índice do primeiro caractere não repetido.
+Given a string s, return the index of the first non-repeating character.
+If it does not exist, return -1.
+
 14. Climbing Stairs
-Quantas formas existem para subir n degraus?
+You are climbing a staircase with n steps.
+Each time you can climb 1 or 2 steps.
+Return the number of distinct ways to reach the top.
+
 15. Fibonacci
 Implemente Fibonacci (iterativo e recursivo).
 16. Maximum Depth of Binary Tree

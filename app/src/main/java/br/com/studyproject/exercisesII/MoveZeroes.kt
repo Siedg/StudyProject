@@ -7,21 +7,17 @@ Mova todos os zeros para o final do array mantendo a ordem relativa.
  */
 
 fun moveZeroes(numbers: IntArray): IntArray {
-    if (numbers.isEmpty()) return intArrayOf()
-
-    val s = numbers.toMutableList()
     var index = 0
-    var end = s.lastIndex
 
-    while (index <= end) {
-        if (s[index] == 0) {
-            s.remove(index)
-            s.add(0)
-            end--
+    for(i in numbers.indices) {
+        if (numbers[i] != 0) {
+            val aux = numbers[index]
+            numbers[index] = numbers[i]
+            numbers[i] = aux
+            index++
         }
-        index++
     }
-    return s.toIntArray()
+    return numbers
 }
 
 data class MoveZeroTestCase(
