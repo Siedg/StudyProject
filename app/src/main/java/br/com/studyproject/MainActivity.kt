@@ -15,10 +15,13 @@ import br.com.studyproject.exercisesII.runFibonacciTests
 import br.com.studyproject.exercisesII.runFirstUniqueCharTests
 import br.com.studyproject.exercisesII.runHappyNumberTests
 import br.com.studyproject.exercisesII.runIntersectionTests
+import br.com.studyproject.exercisesII.runMaxDepthTests
 import br.com.studyproject.exercisesII.runMergeTests
 import br.com.studyproject.exercisesII.runMissingNumberTests
 import br.com.studyproject.exercisesII.runMoveZeroTests
 import br.com.studyproject.exercisesII.runReverseStringTests
+import br.com.studyproject.exercisesII.runStackTests
+import br.com.studyproject.exercisesII.runSymmetricTreeTests
 import br.com.studyproject.exercisesII.runTwoSumTests
 import br.com.studyproject.exercisesII.runValidAnagramTests
 import br.com.studyproject.exercisesII.runValidParenthesesTests
@@ -39,6 +42,6 @@ fun main() {
         listOf(2, 6)
     )
 
-    runFirstUniqueCharTests()
+    runStackTests()
 
 }

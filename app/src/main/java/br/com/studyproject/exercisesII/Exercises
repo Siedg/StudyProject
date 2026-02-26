@@ -73,16 +73,23 @@ Return the number of distinct ways to reach the top.
 
 15. Fibonacci
 Implemente Fibonacci (iterativo e recursivo).
+
 16. Maximum Depth of Binary Tree
-Retorne a profundidade máxima da árvore.
+Given the root of a binary tree, return its maximum depth.
+Maximum depth = number of nodes in the longest path from the root node to the farthest.
+
 17. Symmetric Tree
-Verifique se a árvore é simétrica.
+Given the root of a binary tree, check whether it is a mirror of itself (symmetric around its center).
+
 18. Invert Binary Tree
-Inverta uma árvore binária.
+Given the root of a binary tree, invert the tree (mirror it).
+
 19. Implement Stack using Queue
 Implemente stack usando apenas queue.
+
 20. Implement Queue using Stack
 Implemente queue usando apenas stack.
+
 21. Palindrome Number
 Determine se um número é palíndromo.
 22. Remove Duplicates from Sorted Array
