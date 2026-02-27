@@ -91,25 +91,38 @@ Implemente stack usando apenas queue.
 Implemente queue usando apenas stack.
 
 21. Palindrome Number
-Determine se um número é palíndromo.
+Given an integer x, return true if x is a palindrome, and false otherwise.
+
 22. Remove Duplicates from Sorted Array
-Remova duplicados in-place.
+Given a sorted array nums, remove the duplicates in-place such that each element appears only once and return the new length.
+Do not allocate extra space for another array.
+Modify the input array in-place.
+
 23. Plus One
-Some 1 a um número representado como array.
+You are given a large integer represented as an array of digits.
+Increment the integer by one and return the resulting array.
+
 24. Valid Palindrome
-Ignore espaços e pontuação e verifique se é palíndromo.
+Given a string s, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
+
 25. Two Sum II (array ordenado)
-Encontre dois números que somem target usando two pointers.
+Given a 1-indexed sorted array numbers,
+find two numbers such that they add up to a specific target.
+
 26. Find Pivot Index
-Encontre o índice onde soma esquerda = soma direita.
+Given an integer array nums, return the pivot index.
+
 27. Reverse Linked List
-Inverta uma lista ligada.
+Given the head of a singly linked list, reverse the list and return its new head.
+
 28. Detect Cycle in Linked List
-Detecte se existe ciclo.
+Given the head of a linked list, determine if the list has a cycle in it.
+
 29. Balanced Binary Tree
 Verifique se árvore é balanceada.
 30. Count Primes
 Conte quantos números primos existem até n.
+
 🟡 MEDIUM (31–70)
 31. Merge Intervals
 Una intervalos sobrepostos.
